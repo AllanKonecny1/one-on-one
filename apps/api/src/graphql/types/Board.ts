@@ -1,5 +1,5 @@
 import { objectType } from 'nexus';
-import { User } from '@/graphql/types/User';
+import { User } from './User';
 
 export const Board = objectType({
     name: 'Board',
